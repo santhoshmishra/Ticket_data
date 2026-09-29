@@ -1,7 +1,0 @@
-# Binary files must never have line endings rewritten -- a PDF or a workbook
-# that git "helpfully" converts is a corrupt file that opens to an error.
-*.pdf   binary
-*.xlsx  binary
-# The dataset is the deliverable; pin it to LF so it is byte-identical for
-# every candidate whatever platform they clone on.
-*.csv   text eol=lf
